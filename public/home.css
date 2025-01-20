@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background: #011EA0;
+    background: radial-gradient(at center, #011EA0, #5F01FF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    p{
+        font-family: cursive;
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: .2rem;
+    }
+
+    .pages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        gap: 2rem;
+
+        a{
+            font-family: cursive;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
